@@ -1,4 +1,10 @@
-::selection { background:#cc5456; color: #fff; } ::-moz-selection { background: #1f6a8f; color: #fff; }
+html,body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+::selection { background:#cc5456; color: #fff; } ::-moz-selection { background: #cc5456; color: #fff; }
 
 .farray{
   font-family:"Farray";
@@ -117,6 +123,11 @@
   border:none !important;
   color: #53606e;
   border-radius:0 !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  width: 100%;
 }
 .navbar-default a{
   color: #53606e !important;
@@ -130,8 +141,8 @@
   background:rgba(0,0,0,0.1) !important;
 }
 
-.navbar-toggle{
-  border: 2px solid #53606e !important;
+.navbar-default .navbar-toggle{
+  border: 2px solid #53606e;
 }
 
 .icon-bar{
@@ -146,19 +157,27 @@
     margin: 0 -15px !important;
   }
 }
-
-#carousel .carousel-inner .item img{
-  width: 100%;
-}
-
-.item{
-  max-height:600px;
-}
-
-.item img{
-  width: 100%;
+#carousel{
   height: 100%;
+  overflow: hidden;
+
 }
+
+.item span{
+  display: block;
+  width: 100%;
+  min-height: 300px;
+  height: 9999px;
+  background-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.item .carousel-hyolin{background-image: url('../img/slider-hyolin.png');}
+.item .carousel-soyou{background-image: url('../img/slider-soyou.png'); background-position: top left;}
+.item .carousel-bora{background-image: url('../img/slider-bora.png');}
+.item .carousel-dasom{background-image: url('../img/slider-dasom.png');}
 
 /*main*/
 .main{
@@ -340,23 +359,13 @@ footer{
 }
 
 /*Logo*/
-@media (max-width:767px){
-  .logo-container{
-    width:100% !important;
-    right:0 !important;
-    top:0px;
-  }
-  .logo-container .logo{
-    font-size:35px !important;
-  }
-}
-
 .logo-container{
   position:absolute;
-  width:420px;
+  max-width:420px;
   height:150px;
   bottom:100px;
-  right:30px;
+  left:50%;
+  margin-left: -210px;
   z-index:100;
 }
 .logo-container .logo {
@@ -560,3 +569,12 @@ figcaption{
 .section-link:hover{
   text-decoration:none;
 }
+
+/*titulo header para mobile*/
+.title-header{
+  font-size:24px;
+  margin-left: 10px;
+  font-weight: normal;
+  margin-top: 14px;
+}
+.title-header strong{color: #cc5456; font-weight: normal;}
