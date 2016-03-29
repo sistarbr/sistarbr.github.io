@@ -217,7 +217,8 @@ html,body{
   height:340px;
   width: 100%;
   position: relative;
-  background:#ababab;
+  background:url('../img/img-site.png') no-repeat top left;
+  background-size: cover;
 }
 
 .img-section-2{
@@ -234,7 +235,7 @@ html,body{
   margin-top:-100px;
   text-align:center;
   font-size:16px;
-  color:#53606e;
+  color:rgba(255,255,255,0.7);
 }
 
 @media (max-width:767px){
