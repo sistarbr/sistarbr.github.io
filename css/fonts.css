@@ -1,0 +1,43 @@
+/* Farray */
+@font-face {
+    font-family: "Farray";
+    font-weight: normal;
+    src: url(../fonts/farray.otf);
+}
+/* MyriadPro */
+@font-face{
+  font-family: "MyriadPro";
+  font-weight:normal;
+  font-style:normal;
+  src: url(../fonts/MyriadPro-Regular.otf);
+}
+@font-face{
+  font-family: "MyriadPro";
+  font-weight:700;
+  font-style:normal;
+  src: url(../fonts/MyriadPro-Bold.otf);
+}
+@font-face{
+  font-family: "MyriadPro";
+  font-weight:700;
+  font-style: italic;
+  src: url(../fonts/MyriadPro-SemiboldIt.otf);
+}
+@font-face{
+  font-family: "MyriadPro";
+  font-weight:normal;
+  font-style: italic;
+  src: url(../fonts/MyriadPro-It.otf);
+}
+@font-face{
+  font-family: "MyriadPro";
+  font-weight:500;
+  font-style:normal;
+  src: url(../fonts/MyriadPro-Semibold.otf);
+}
+@font-face{
+  font-family: "MyriadPro";
+  font-weight:500;
+  font-style:italic;
+  src: url(../fonts/MyriadPro-SemiboldIt.otf);
+}
