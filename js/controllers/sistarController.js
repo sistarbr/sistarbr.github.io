@@ -1,18 +1,20 @@
-app.controller('sistarController', ['$scope', function($scope) {
+app.controller('sistarController', ['$scope',
+  function($scope, $route, $routeParams, $location) {
 
-  $( ".nav-item-carousel" ).click(function() {
-    $( ".nav-item-carousel" ).removeClass("active-item-carousel");
-    $( this ).toggleClass( "active-item-carousel" );
-  });
+    $( ".nav-item-carousel" ).click(function() {
+      $( ".nav-item-carousel" ).removeClass("active-item-carousel");
+      $( this ).toggleClass( "active-item-carousel" );
+    });
 
-  data = new Date();
-  var hyolynAge = data.getFullYear() - 1991;
-  var soyouAge = data.getFullYear() - 1992;
-  var boraAge = data.getFullYear() - 1990;
-  var DasomAge = data.getFullYear() - 1993;
+    data = new Date();
+    var hyolynAge = data.getFullYear() - 1991;
+    var soyouAge = data.getFullYear() - 1992;
+    var boraAge = data.getFullYear() - 1990;
+    var DasomAge = data.getFullYear() - 1993;
 
-  $( ".hyolynAge" ).html(hyolynAge);
-  $( ".soyouAge" ).html(hyolynAge);
-  $( ".boraAge" ).html(hyolynAge);
-  $( ".dasomAge" ).html(hyolynAge);
-}]);
+    $( ".hyolynAge" ).html(hyolynAge);
+    $( ".soyouAge" ).html(hyolynAge);
+    $( ".boraAge" ).html(hyolynAge);
+    $( ".dasomAge" ).html(hyolynAge);
+  }
+]);
