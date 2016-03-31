@@ -1,9 +1,8 @@
 app.controller('sistarController', ['$scope', function($scope) {
-  $( document ).ready(function() {
-    $( ".nav-item-carousel" ).click(function() {
-      $( ".nav-item-carousel" ).removeClass("active-item-carousel");
-      $( this ).toggleClass( "active-item-carousel" );
-    });
+
+  $( ".nav-item-carousel" ).click(function() {
+    $( ".nav-item-carousel" ).removeClass("active-item-carousel");
+    $( this ).toggleClass( "active-item-carousel" );
   });
 
   data = new Date();
