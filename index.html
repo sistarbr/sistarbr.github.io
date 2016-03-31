@@ -16,12 +16,13 @@
   <meta name="msapplication-navbutton-color" content="#cc5456">
   <meta name="apple-mobile-web-app-status-bar-style" content="#cc5456">
 
-  <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/fonts.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
-<body>
+<body ng-app="sistarBr" ng-controller="sistarController">
 
   <header class="header clearfix">
 
@@ -391,8 +392,10 @@
     <div class="social-sistar">
       <div class="container">
         <div class="col-md-8">
+          <!--
           <iframe width="100%" height="315" src="https://www.youtube.com/embed/x9-TIy7WPQI" frameborder="0" allowfullscreen>
           </iframe>
+          -->
         </div>
         <div class="col-md-4">
           <div class="border-face"></div>
@@ -629,9 +632,11 @@
 
   </footer><!--end of footer-->
 
-  <script src="js/jquery/jquery-1.11.3.min.js"></script>
-  <script src="https://use.fonticons.com/22cfebd1.js"></script>
-  <script src="js/bootstrap/bootstrap.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/controllers/sistarController.js"></script>
+  <script src="js/services/services.js"></script>
 </body>
 </html>
