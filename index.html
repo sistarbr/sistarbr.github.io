@@ -24,46 +24,7 @@
 </head>
 <body ng-app="sistarBr" ng-controller="sistarController">
 
-  <header class="header clearfix">
-
-    <nav class="navbar navbar-default no-margin">
-
-      <h1 class="title-header visible-xs-block pull-left farray">
-        <a href="/" title="Sistar BR">
-          Sistar <strong>BR</strong>
-        </a>
-      </h1>
-
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav" aria-expanded="false">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-
-        <div class="collapse navbar-collapse" id="nav">
-          <ul class="nav navbar-nav myriad">
-            <li><a class="ativo" href="file:///home/andre/Documentos/projetos/sistarbr/index.html" title="Home">HOME</a></li>
-            <li><a href="#" title="Blog">BLOG</a></li>
-            <li><a href="file:///home/andre/Documentos/projetos/sistarbr/sistar.html" title="Sistar">SISTAR</a></li>
-            <li><a class="pointer" title="F.A.Q" data-toggle="modal" data-target="#modalFaq">F.A.Q</a></li>
-            <li><a href="#" title="Subs">SUBS</a></li>
-            <li><a href="file:///home/andre/Documentos/projetos/sistarbr/equipe.html" title="WWW">WWW</a></li>
-            <li><a class="pointer" title="Contato" data-toggle="modal" data-target="#modalContact">CONTATO</a></li>
-          </ul>
-          <ul class="nav navbar-nav pull-right hidden-xs">
-            <li><a class="icon fa fa-facebook" href="https://www.facebook.com/SISTARBr" target="_blank" title="Facebook"></a></li>
-            <li><a class="icon fa fa-twitter" href="https://twitter.com/SISTAR_Br" target="_blank" title="Twitter"></a></li>
-            <li><a class="icon fa fa-tumblr" href="http://sistarbr.tumblr.com/" target="_blank" title="Tumblr"></a></li>
-            <li><a class="icon fa fa-youtube-play" href="https://www.youtube.com/user/sistarbr" target="_blank" title="YouTube"></a></li>
-            <li><a class="icon fa fa-instagram" href="https://instagram.com/sistarbr/" target="_blank" title="Instagram"></a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header> <!--end of header-->
+  <sistar-header></sistar-header>
 
   <!-- modal #contato-->
   <div class="modal fade" id="modalContact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
