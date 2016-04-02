@@ -1,0 +1,55 @@
+<div class="modal fade" id="modalContact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="myriad modal-title">Contato</h4>
+      </div><!--end modal-header-->
+      <div class="modal-body clearfix">
+        <form class="contactForm" name="contactForm" method="get" action="">
+          <div class="col-md-12">
+            <input class="inputText" type="text" placeholder="Nome" name="contact.name">
+          </div>
+
+          <div class="col-md-6">
+            <input class="inputText" type="text" placeholder="Nome do site ou blog" name="contact.siteName">
+          </div>
+          <div class="col-md-6">
+            <input class="inputText" type="text" placeholder="Url do site ou blog" name="contact.siteUrl">
+          </div>
+
+          <div class="col-md-12">
+            <input class="inputText" type="text" placeholder="Assunto do site" name="contact.siteUrl">
+          </div>
+
+          <div class=col-md-12>
+            <input class="inputFile" type="file" name="">
+          </div>
+
+          <button type="submit" class="btn btn-sistar-contact myriad" aria-label="Close" data-dismiss="modal" data-toggle="modal" data-target="#modalSuccess">
+            Enviar
+          </button>
+
+        </form><!--end form-->
+      </div><!--end modal-body-->
+
+    </div><!--end modal-content-->
+  </div><!--end modal-dialog-->
+</div><!--end modal-->
+
+<!--modal success-->
+<div class="modal fade" id="modalSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="myriad modal-title">Contato</h4>
+      </div><!--end modal-header-->
+      <div class="modal-body">
+        <p class="myriad txtSuccess t-center">Sua mensagem foi enviada com <strong>Sucesso!</strong></p>
+      </div><!--end modal-body-->
+
+    </div><!--end modal-content-->
+  </div><!--end modal-dialog-->
+</div><!--end modal-->
+<!--end of modal success-->

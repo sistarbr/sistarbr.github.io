@@ -16,4 +16,14 @@ var app = angular.module('sistarBr', ['ngRoute'])
     return{
       templateUrl:'components/sistar-header.html'
     };
-  });
+  })
+  .directive('modalContact', function(){
+    return{
+      templateUrl:'components/modal-contact.html'
+    };
+  })
+  .directive('modalFaq', function(){
+    return{
+      templateUrl:'components/modal-faq.html'
+    };
+  })
