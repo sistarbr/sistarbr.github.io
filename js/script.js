@@ -1,12 +1,10 @@
-var app = angular.module('sistarBr', ['ngRoute']);
+var app = angular.module('sistarBr', ['ngRoute']).config(function($routeProvider, $locationProvider){
+  $routeProvider.when('/', {
+      templateUrl : 'views/home.html',
+  });
 
-app.config(function ($routeProvider) {
-  $routeProvider
-    .when('/', {
-      controller: "sistarController",
-      templateUrl: "views/home.html"
-    })
-    .otherwise({
-      redirectTo: '/'
-    });
+  $locationProvider.html5Mode({
+    enable: true,
+    requireBase: false
+  });
 });
