@@ -26,3 +26,9 @@ app.controller('staffController', ['$scope', 'staffMembers',
     });
   }
 ]);
+
+app.controller('locationController', function($scope, $rootScope, $location){
+  $scope.getCurrentPath = function(){
+    return $location.path();
+  };
+});
