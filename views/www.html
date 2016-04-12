@@ -1,3 +1,27 @@
-<p>
-  www.
-</p>
+<div class="main clearfix">
+  <section class="clearfix staff-section">
+    <h2 class="farray t-center title-page">Perfil dos integrantes do site</h2>
+    <div class="container" ng-controller="staffController">
+
+      <div class="col-md-3 col-sm-6" ng-repeat="member in members">
+        <div class="member border-container">
+          <div class="col-md-12">
+            <h4 class="farray t-center member-name">{{member.nickname}}</h4>
+          </div>
+          <div class="col-md-12">
+            <figure>
+              <img class="image-member border-image" ng-src="{{member.image}}" alt="{{member.nickname}}">
+              <figcaption class="myriad">
+                <p><strong>Cidade:</strong> {{member.city}}</p>
+                <p><strong>Bias no grupo:</strong> {{member.bias}}</p>
+                <p><strong>Função na equipe:</strong> {{member.function}}</p>
+                <p><strong>Redes sociais:</strong></p>
+                <p><strong>Fandons:</strong> {{member.fandons}}</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>

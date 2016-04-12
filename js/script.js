@@ -15,7 +15,7 @@ var app = angular.module('sistarBr', ['ngRoute'])
     });
   })
 
-  //modules
+  //components
   .directive('sistarHeader', function(){
     return{
       templateUrl:'components/sistar-header.html'

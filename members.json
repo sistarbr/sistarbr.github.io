@@ -1,0 +1,101 @@
+{
+  "members":
+  [
+    {
+      "nickname": "Mands",
+      "image": "img/member-1.png",
+      "city": "Rio de Janeio - RJ",
+      "bias": "Bora",
+      "function": "Fundadora/Administradora",
+      "social":
+      [
+        {"facebook":"http://facebook.com"}
+      ],
+      "fandons": "STAR1 e SONE"
+    },
+    {
+      "nickname": "Mar",
+      "image": "img/member-2.jpg",
+      "city": "Rio de Janeio - RJ",
+      "bias": "Soyou",
+      "function": "Toma conta do Instagram e cobre alguém sempre que preciso",
+      "social":
+      [
+        {"facebook":"http://facebook.com"}
+      ],
+      "fandons": "STAR1, Blackjack, Aileeans e Say A"
+    },
+    {
+      "nickname": "Mimi",
+      "image": "img/member-3.png",
+      "city": "Porto Alegre - RS",
+      "bias": "Soyou",
+      "function": "Administradora",
+      "social":
+      [
+        {"facebook":"http://facebook.com"}
+      ],
+      "fandons": "Shawol, STAR1, Dai5y e Exo-l"
+    },
+    {
+      "nickname": "Val",
+      "image": "img/member-4.png",
+      "city": "Presidente Prudente - SP",
+      "bias": "Bora",
+      "function": "Designer",
+      "social":
+      [
+        {"facebook":"http://facebook.com"}
+      ],
+      "fandons": "STAR1, 4nia, Say A e Sone"
+    },
+    {
+      "nickname": "Chumi",
+      "image": "img/member-5.jpg",
+      "city": "Corumbaíba - GO",
+      "bias": "Hyolyn",
+      "function": "Tradutora e Timmer",
+      "social":
+      [
+        {"facebook":"http://facebook.com"}
+      ],
+      "fandons": "Cassiopeia, STAR1, Sweety Voice e Toppklass"
+    },
+    {
+      "nickname": "Ni",
+      "image": "img/member-6.jpg",
+      "city": "Rio de Janeio - RJ",
+      "bias": "HyoLyn & SoYou",
+      "function": "Tradutora",
+      "social":
+      [
+        {"facebook":"http://facebook.com"}
+      ],
+      "fandons": "Sone, Say A, Aileeans e Still Young"
+    },
+    {
+      "nickname": "Igor",
+      "image": "img/member-7.jpg",
+      "city": "Ibiúna - SP",
+      "bias": "Todas, impossível escolher uma",
+      "function": "Timmer",
+      "social":
+      [
+        {"facebook":"http://facebook.com"}
+      ],
+      "fandons": "STAR1, Melody, Sone, Pink Panda, 4NIA, Elvis, Mine, Starlight e Secret Time"
+    },
+    {
+      "nickname": "Bom",
+      "image": "img/member-8.jpg",
+      "city": "São Paulo - SP",
+      "bias": "Não tem como escolher não ;u;",
+      "function": "Timmer",
+      "social":
+      [
+        {"facebook":"http://facebook.com"}
+      ],
+      "fandons": "BlackJack, V.I.P, STAR1, Starlight e BBC"
+    }
+  ]
+}

@@ -18,3 +18,11 @@ app.controller('sistarController', ['$scope',
     $( '.dasomAge' ).html(hyolynAge);
   }
 ]);
+
+app.controller('staffController', ['$scope', 'staffMembers',
+  function($scope, staffMembers){
+    staffMembers.success(function(data){
+      $scope.members = data.members;
+    });
+  }
+]);
