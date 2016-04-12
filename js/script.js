@@ -9,6 +9,9 @@ var app = angular.module('sistarBr', ['ngRoute'])
       .when('/www',{
         templateUrl: 'views/www.html'
       })
+      .when('/sistar',{
+        templateUrl: 'views/sistar.html'
+      })
     $locationProvider.html5Mode({
       enable: true,
       requireBase: false
